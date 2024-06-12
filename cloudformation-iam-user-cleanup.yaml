@@ -114,6 +114,11 @@ Resources:
                     - 'iam:ListAccessKeys'
                     - 'iam:ListRoles'
                     - 'iam:ListUsers'
+                    - 'iam:DeleteAccessKeys'
+                    - 'iam:DeleteUser'
+                    - 'iam:DeleteRole'
+                    - 'iam:UpdateAccessKey'
+                    - 'iam:UpdateUser'
                   Effect: Allow
                   Resource: '*' # Explicit that this includes all users
                 - Action:
