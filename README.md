@@ -22,15 +22,7 @@ Deploy the CloudFormation Stack
 4. In the Specify Stack Details menu:
   - For Stack name, enter iam-cleanup.
   - For AnalyzerType, IAM Access Analyzer produces findings on the external availability of resources within your AWS account. If this account is the root account of an organization or the delegated administrator select ORGANIZATION, otherwise select ACCOUNT or NONE to skip this check.
-  - For MinAgeKeysToDelete, leave the default of 0.
-  - For MinAgeKeysToDisable, leave the default of 0.
-  - For MinAgeKeysToReport, leave the default of 30.
-  - For MinAgeRolesToDelete, leave the default of 0.
-  - For MinAgeRolesToDisable, leave the default of 0.
-  - For MinAgeRolesToReport, leave the default of 30.
-  - For MinAgeUnusedUsersToDelete, leave the default of 0.
-  - For MinAgeUnusedUsersToDisable, leave the default of 0.
-  - For MinAgeUnusedUsersToReport, leave the default of 30.
+  - Leave all the following default until the next step
   - For NotificationEmail, enter the email address to send the IAM report to.
   - Choose Next
 5. For Configure Stack Options, choose Next.
