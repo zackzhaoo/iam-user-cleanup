@@ -1,6 +1,6 @@
 # iam-user-cleanup
 
-Introduction: This will allow you to automate the management and removal of orphaned orphaned IAM users, access keys, and roles within your organization using Lambda and EventBridge. Integrated IAM Access Analyzer and SNS for reporting, with logs stored in CloudWatch for auditing.
+Introduction: This will allow you to automate the management and removal of orphaned IAM users, access keys, and roles within your organization using Lambda and EventBridge. Integrated IAM Access Analyzer and SNS for reporting, with logs stored in CloudWatch for auditing.
 
 Installations: 
   - Have an AWS Account and select a region with support for AWS Lambda.
